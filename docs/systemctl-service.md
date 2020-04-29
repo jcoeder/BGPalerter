@@ -49,7 +49,8 @@ Create this file.
 
 The contents of this file should be as follows:
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 for arg in "$@"
 do
