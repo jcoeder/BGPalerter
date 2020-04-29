@@ -15,7 +15,7 @@ Next you need to create the systemd service file.
 
 The contents of this file should be as follows:
 
-`[Unit]
+```[Unit]
 Description=BGPAlerter
 After=network.target
 
@@ -25,7 +25,8 @@ WorkingDirectory=/opt/bgpalerter
 ExecStart=/opt/bgpalerter/bgpalerter-linux-x64
 
 [Install]
-WantedBy=multi-user.target`
+WantedBy=multi-user.target
+```
 
 ### Reload systemd
 
