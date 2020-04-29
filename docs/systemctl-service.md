@@ -17,7 +17,8 @@ Next you need to create the systemd service file.
 
 The contents of this file should be as follows:
 
-```[Unit]
+```
+[Unit]
 Description=BGPAlerter
 After=network.target
 
