@@ -37,7 +37,9 @@ Reload systemd to register the new configuration.
 
 ### Enable and start the service
 Enable bgpalerter to start at boot and then start the service.
+
 `systemctl enable bgpalerter`
+
 `systemctl start bgpalerter`
 
 ### Another helpful trick
@@ -76,7 +78,11 @@ Make that file executable.
 `chmod +x /usr/bin/bgpalerter`
 
 This file allows you to simply type the following commands if systemctl is too much work for you to remember!
+
 `bgpalerter --help`
+
 `bgpalerter --start`
+
 `bgpalerter --stop`
+
 `bgpalerter --status`
